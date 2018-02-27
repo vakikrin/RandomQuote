@@ -1,0 +1,61 @@
+body {
+    background-color: #854B4B;
+    transition: 1.5s linear;
+}
+
+.main-card {
+    height: auto;
+    width: 450px;
+    margin: 8% auto auto auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #ffffff;
+    border-radius: 3px;
+  /*  box-shadow: 0 0 20px rgba(0,0,0,0.5);*/
+
+}
+.place-for-quote {
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+.newQuote {
+    font-family: 'Merienda One', cursive;
+    font-size: 18px;
+}
+.block-under-quote {
+    height: auto;
+    width: 95%;
+    bottom: 5%;
+    display: inline-table;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.quoteGETJSON {
+    text-align: center;
+    height: 50px;
+    width: 30%;
+    float: right;
+    color: black;
+    text-decoration: none;
+    user-select: none;
+    border: 2px solid;
+    border-radius: 5px;
+    line-height: 50px;
+
+}
+
+.info {
+    height: 50px;
+    width: 50px;
+    float: left;
+  /*  background: blue;*/
+    margin-left: 10px;
+}
+.infoAboutQuote {
+    float: right;
+    font-family: 'Merienda One', cursive;
+}
